@@ -1,13 +1,9 @@
 import React, { Component } from 'react'
-import PostsContainer from './PostsContainer'
+import Main from '../components/Main'
 
 class App extends Component {
-  render () {
-    return (
-      <div>
-        <PostsContainer />
-      </div>
-    )
+  render() {
+    return <Main />
   }
 }
 
